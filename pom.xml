@@ -212,13 +212,7 @@
     <tag>HEAD</tag>
     <url>http://github.com/ahmfrank/test</url>
   </scm>
-  
-  <repository>
-    <id>releases</id>
-    <name>Releases</name>
-    <url>http://52.15.126.185:8081/repository/maven-deploy-repo/</url>
-  </repository>
-         
+        
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
