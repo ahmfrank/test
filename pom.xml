@@ -206,12 +206,6 @@
     </dependencies>
   </dependencyManagement>
   
-  <repository>
-    <id>releases</id>
-    <name>Releases</name>
-    <url>http://52.15.126.185:8081</url>
-  </repository>
-       
   <scm>
     <connection>scm:git:git@github.com:ahmfrank/test.git</connection>
     <developerConnection>scm:git:git@github.com:ahmfrank/test.git</developerConnection>
