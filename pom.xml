@@ -158,23 +158,10 @@
           <artifactId>jetty-maven-plugin</artifactId>
           <version>8.0.0.M1</version>
         </plugin>
-      </plugi ns>
+      </plugins>
     </pluginManagement>
   </build>
- 
-  <distributionManagement>
-        <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://18.221.192.210:8081/repository/Test_Repo/</url>
-        </repository>
-        <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://18.221.192.210:8081/repository/Test_Repo/</url>
-        </snapshotRepository>
-    </distributionManagement>
-         
+
   <dependencyManagement>
     <dependencies>
       <dependency>
@@ -218,14 +205,14 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-  
+
   <scm>
-    <connection>scm:git:git@github.com:ahmfrank/test.git</connection>
-    <developerConnection>scm:git:git@github.com:ahmfrank/test.git</developerConnection>
+    <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
+    <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
     <tag>HEAD</tag>
-    <url>http://github.com/ahmfrank/test</url>
+    <url>http://github.com/jleetutorial/maven-project</url>
   </scm>
-        
+
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
