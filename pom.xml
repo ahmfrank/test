@@ -158,10 +158,23 @@
           <artifactId>jetty-maven-plugin</artifactId>
           <version>8.0.0.M1</version>
         </plugin>
-      </plugins>
+      </plugi ns>
     </pluginManagement>
   </build>
-
+ 
+  <distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://18.221.192.210:8081/repository/Test_Repo/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://18.221.192.210:8081/repository/Test_Repo/</url>
+        </snapshotRepository>
+    </distributionManagement>
+         
   <dependencyManagement>
     <dependencies>
       <dependency>
