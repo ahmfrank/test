@@ -1,3 +1,3 @@
 # maven-project
-Test Opsgeine test3
+Test Opsgeine test
 Simple Maven Project
