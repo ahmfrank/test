@@ -210,12 +210,12 @@
   </prerequisites>
   <distributionManagement>
         <repository>
-            <id>nexus</id>
+            <id>1234</id>
             <name>Internal Releases</name>
             <url>http://127.0.0.1:8081/repository/my-maven-release/</url>
         </repository>
         <snapshotRepository>
-            <id>nexus</id>
+            <id>1234</id>
             <name>Internal Snapshot Releases</name>
             <url>http://127.0.0.1:8081/repository/my-maven-snapshots/</url>
         </snapshotRepository>
