@@ -28,7 +28,7 @@
 #      <url>file:///tmp/maven-project-site</url>
 #    </site>
 #  </distributionManagement>
-<distributionManagement>
+  <distributionManagement>
     <repository>
       <id>nexus</id>
       <name>Releases</name>
